@@ -169,11 +169,13 @@ body {
   gap: 2rem;
 }
 .skill-card {
-  background: var(--gray);
+  background: #2956a3;
+  color: var(--foreground);
+  border: 1.5px solid #60a5fa;
+  box-shadow: 0 4px 24px rgba(96,165,250,0.15);
   border-radius: 1rem;
   padding: 2rem 1.5rem;
   text-align: center;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -315,10 +317,12 @@ body {
   gap: 2rem;
 }
 .leadership-card {
-  background: #fff;
+  background: #2956a3;
+  color: var(--foreground);
+  border: 1.5px solid #60a5fa;
+  box-shadow: 0 4px 24px rgba(96,165,250,0.15);
   border-radius: 1rem;
   padding: 2rem 1.5rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -426,5 +430,115 @@ body {
   }
   .leadership-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #07132a;
+    --foreground: #ededed;
+    --blue: #60a5fa;
+    --blue-light: #3b82f6;
+    --cyan: #06b6d4;
+    --cyan-light: #67e8f9;
+    --purple: #a78bfa;
+    --purple-light: #6d28d9;
+    --gray: #101a2b;
+    --gray-dark: #ededed;
+  }
+  body {
+    background: var(--background);
+    color: var(--foreground);
+  }
+  .navbar {
+    background: rgba(7,19,42,0.95);
+    border-bottom: 1px solid #16213a;
+  }
+  .nav-logo {
+    color: var(--blue);
+  }
+  .nav-links a {
+    color: var(--gray-dark);
+  }
+  .nav-links a:hover,
+  .nav-links a:focus {
+    color: var(--blue);
+  }
+  .hero-section {
+    background: linear-gradient(to bottom, transparent, var(--gray));
+  }
+  .tagline {
+    color: var(--gray-dark);
+  }
+  .hero-link {
+    color: var(--blue);
+  }
+  .hero-link:hover,
+  .hero-link:focus {
+    color: var(--blue-light);
+  }
+  .btn-primary {
+    background: var(--blue);
+    color: #fff;
+  }
+  .btn-primary:hover,
+  .btn-primary:focus {
+    background: var(--blue-light);
+  }
+  .about-section,
+  .skills-section,
+  .honors-section,
+  .volunteering-section {
+    background: var(--background);
+  }
+  .about-text h2,
+  .skills-section h2,
+  .honors-section h2,
+  .volunteering-text h2 {
+    color: var(--foreground);
+  }
+  .about-img-wrapper,
+  .volunteering-img-wrapper {
+    box-shadow: 0 4px 24px rgba(255,255,255,0.08);
+  }
+  .skill-card,
+  .project-card,
+  .honor-card,
+  .leadership-card {
+    background: var(--gray);
+    color: var(--foreground);
+    box-shadow: 0 2px 8px rgba(255,255,255,0.04);
+  }
+  .skill-card p,
+  .project-info p,
+  .honor-detail,
+  .honor-meta,
+  .honor-desc,
+  .leadership-meta {
+    color: var(--gray-dark);
+  }
+  .projects-section,
+  .leadership-section {
+    background: #0d1a36;
+  }
+  .project-link,
+  .volunteering-link {
+    color: var(--blue);
+  }
+  .project-link:hover,
+  .project-link:focus,
+  .volunteering-link:hover,
+  .volunteering-link:focus {
+    color: var(--blue-light);
+  }
+  .footer {
+    background: var(--background);
+    color: var(--gray-dark);
+    border-top: 1px solid #16213a;
+  }
+  /* Ensure honor cards (awards) text is dark for contrast in dark mode */
+  .honor-card,
+  .honor-card * {
+    color: #111 !important;
   }
 } 
