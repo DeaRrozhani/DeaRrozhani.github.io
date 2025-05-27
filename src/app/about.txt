@@ -1,0 +1,56 @@
+Contributions to Penn SWE
+
+Professional Development Co-Director (Executive Board)
+Co-organized the 28th Edition of Corporate Dinner - Penn SWE’s engineering career fair with 13 companies/sponsors and 200 attendees. 
+Planned event logistics including but not limited to guest speaker selection, venues, catering, invitations, ticket sales and decorations. 
+GEARS Day (2022 - 2023)
+Led EE/CIS Workshops during GEARS Day, an event where high school girls from Philadelphia come to spend a day at Penn and learn about different types of engineering
+I led these workshops two years in a row, each with 100 participants. 
+Prepared curricula, slides and trained other SWE volunteers
+Education and Outreach Committee (2021 - 2022)
+Prepared and led weekly coding workshops for middle school girls from local Philadelphia school 
+Program ran for 4 weeks
+Virtual due to covid
+
+
+Volunteer in FIRST Global (2023, 2024)
+
+FIRST Global is an annual olympic-style robotics competition that brings together national teams of high school students representing 190+ countries to tackle the world’s most pressing issues using engineering. 
+I volunteered as a FIRST Global Representative in the 2023 held in Singapore and the 2024 one in Greece. 
+As a Representative I was responsible for communicating with high-profile guests during the event such as Ambassadors from different countries, other government officials and platinum sponsors. 
+I am volunteering again in 2025 as a Technical Judge, where I will be reviewing and assessing each team’s robot designs from a strictly technical perspective. 
+I am also one of the former students selected to appear in the FIRST Global documentary (in production)
+
+
+Personal honors not mentioned in resume
+In 2021 I was selected by the U.S. Ambassador to Albania to be the only speaker representing Albania during the 4th of July Celebration in Tirana. The event was attended by Albania’s President, Prime Minister, Mayor of Tirana, other ministers, opposition leaders, the EU Ambassador, and other officials from the U.S. Embassy. 
+In February 2024, during his visit in Albania, the U.S. Secretary of State Antony Blinken mentioned me in his speech to the youth of Albania for my contributions in STEM Education and my app GjejZa, which helps women fight gender-based violence. 
+Selected as a Penn World Scholar during my 4 years at Penn based on exceptional leadership potential, academic achievement
+
+Penn Electric Racing (FSAE) — Software, Hardware, Operations
+SEPTEMBER 2021 – PRESENT | https://www.pennelectricracing.com
+• Developing a new app for the Dashboard display, enabling the driver to easily
+navigate live data from all the crucial subsystems.
+• Led the PCB design of the on-board car data logger with CAN communication,
+RF live telemetry and SD logging.
+• Increased inventory organization and management by creating a catalog of
+1000+ electrical parts and reducing search time by 80%.
+• Skills: React, JavaScript, Bootstrap, PCB Design, Altium, Digital Circuits
+GjejZa App — Co-Founder, Lead Full-Stack Software Engineer
+JANUARY 2019 – PRESENT | https://tinyurl.com/GjejZaPlayStore | https://tinyurl.com/GjejZaForbes
+• Founded and programmed an internationally acclaimed, award-winning app
+with 1000+ downloads, which fights gender-based violence in Albania by
+providing a network of emergency and empowerment resources.
+• Designed and implemented an intuitive native Android UI with structured
+content, improving accessibility and reducing resource search time by 90%.
+• Created an Incognito feature to disguise the app in dangerous situations.
+• Prototyped, validated with JUnit tests, and rolled out app within 8 months.
+• Featured in Forbes and supported by the U.S. Embassy in Tirana, the Ministry of
+Interior and Ministry of Health in Albania, and recognized by the U.S.
+Department of State, UN Women, and UNICEF.
+• Skills: Java, Android Studio, XML, MySQL, Firebase, JUnit, Figma
+
+
+
+
+
