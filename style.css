@@ -169,10 +169,10 @@ body {
   gap: 2rem;
 }
 .skill-card {
-  background: #2956a3;
+  background: #fff;
   color: var(--foreground);
-  border: 1.5px solid #60a5fa;
-  box-shadow: 0 4px 24px rgba(96,165,250,0.15);
+  border: none;
+  box-shadow: 0 6px 32px rgba(0,0,0,0.10);
   border-radius: 1rem;
   padding: 2rem 1.5rem;
   text-align: center;
@@ -317,10 +317,10 @@ body {
   gap: 2rem;
 }
 .leadership-card {
-  background: #2956a3;
+  background: #fff;
   color: var(--foreground);
-  border: 1.5px solid #60a5fa;
-  box-shadow: 0 4px 24px rgba(96,165,250,0.15);
+  border: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
   border-radius: 1rem;
   padding: 2rem 1.5rem;
   display: flex;
