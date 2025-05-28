@@ -11,8 +11,13 @@
   <!-- Navbar -->
   <nav class="navbar">
     <div class="container nav-content">
-      <a href="#home" class="nav-logo">Dea Rrozhani</a>
-      <ul class="nav-links">
+      <div class="nav-left">
+        <a href="#home" class="nav-logo">Dea Rrozhani</a>
+        <button class="hamburger" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-menu">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:currentColor;"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+      <ul class="nav-links" id="mobile-menu">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -224,6 +229,23 @@
         if (href && href.startsWith('#') && href.length > 1) {
           e.preventDefault();
           document.querySelector(href).scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+    // Hamburger menu toggle
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    hamburger.addEventListener('click', function() {
+      navLinks.classList.toggle('open');
+      const expanded = hamburger.getAttribute('aria-expanded') === 'true';
+      hamburger.setAttribute('aria-expanded', !expanded);
+    });
+    // Close menu on link click (mobile)
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        if (window.innerWidth <= 600) {
+          navLinks.classList.remove('open');
+          hamburger.setAttribute('aria-expanded', false);
         }
       });
     });
